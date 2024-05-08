@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+
+<body>
+    <div class="page d-flex">
+        <!-- Start Sidebar -->
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="text-c mt-0">Eldab3</h3>
+            <ul class="sidebarLis">
+                <li class="active">
+                    <a class="d-flex align-c fs-14 c-black border-r-6 p-10" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black border-r-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black border-r-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black border-r-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black border-r-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black border-r-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black border-r-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black border-r-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Sidebar -->
+        <!-- Start Content -->
+        <div class="content w-full">
+            <!-- Start Head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Search" />
+                </div>
+                <div class="icons d-flex align-c">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img class="border-r-half" src="images/avatar.jpg" alt="avatar" />
+                </div>
+            </div>
+            <!-- End Head -->
+            <h1 class="p-relative">Friends</h1>
+            <div class="friends-page d-grid gap-20 m-20">
+                <div class="friend bg-white border-r-6 p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone bg-eee p-10 border-r-half fs-13"></i>
+                        <i class="fa-solid fa-envelope bg-eee p-10 border-r-half fs-13"></i>
+                    </div>
+                    <div class="text-c">
+                        <img class="border-r-half mt-10 mb-10" src="images/friend-01.jpg" alt="friend">
+                        <h4 class="m-0">Ali Eldabaa</h4>
+                        <p class="c-gray fs-13 mt-5">JavaScript Developer</p>
+                    </div>
+                    <div class="icons fs-14 mt-10 mb-15 pt-15 pb-15 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-solid fa-face-smile fa-fw mr-5"></i>
+                            <span>99 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw mr-5"></i>
+                            <span>15 project</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-5"></i>
+                            <span>25 article</span>
+                        </div>
+                        <span class="vip fw-bold c-orange p-absolute">VIP</span>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-gray">Joined 18/01/2010</span>
+                        <div>
+                            <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+                            <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend bg-white border-r-6 p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone bg-eee p-10 border-r-half fs-13"></i>
+                        <i class="fa-solid fa-envelope bg-eee p-10 border-r-half fs-13"></i>
+                    </div>
+                    <div class="text-c">
+                        <img class="border-r-half mt-10 mb-10" src="images/friend-02.jpg" alt="friend">
+                        <h4 class="m-0">Mohammed Saleh</h4>
+                        <p class="c-gray fs-13 mt-5">Cloud Developer</p>
+                    </div>
+                    <div class="icons fs-14 mt-10 mb-15 pt-15 pb-15 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-solid fa-face-smile fa-fw mr-5"></i>
+                            <span>40 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw mr-5"></i>
+                            <span>5 project</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-5"></i>
+                            <span>3 article</span>
+                        </div>
+                        <span class="vip fw-bold c-orange p-absolute">VIP</span>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-gray">Joined 08/04/2014</span>
+                        <div>
+                            <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+                            <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend bg-white border-r-6 p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone bg-eee p-10 border-r-half fs-13"></i>
+                        <i class="fa-solid fa-envelope bg-eee p-10 border-r-half fs-13"></i>
+                    </div>
+                    <div class="text-c">
+                        <img class="border-r-half mt-10 mb-10" src="images/friend-03.jpg" alt="friend">
+                        <h4 class="m-0">Mahmmoud Ramzy</h4>
+                        <p class="c-gray fs-13 mt-5">Mobile Developer</p>
+                    </div>
+                    <div class="icons fs-14 mt-10 mb-15 pt-15 pb-15 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-solid fa-face-smile fa-fw mr-5"></i>
+                            <span>60 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw mr-5"></i>
+                            <span>12 project</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-5"></i>
+                            <span>8 article</span>
+                        </div>
+                        <span class="vip fw-bold c-orange p-absolute">VIP</span>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-gray">Joined 12/09/2017</span>
+                        <div>
+                            <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+                            <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend bg-white border-r-6 p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone bg-eee p-10 border-r-half fs-13"></i>
+                        <i class="fa-solid fa-envelope bg-eee p-10 border-r-half fs-13"></i>
+                    </div>
+                    <div class="text-c">
+                        <img class="border-r-half mt-10 mb-10" src="images/friend-04.jpg" alt="friend">
+                        <h4 class="m-0">Saif Khalid</h4>
+                        <p class="c-gray fs-13 mt-5">Algorithms Developer</p>
+                    </div>
+                    <div class="icons fs-14 mt-10 mb-15 pt-15 pb-15 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-solid fa-face-smile fa-fw mr-5"></i>
+                            <span>52 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw mr-5"></i>
+                            <span>7 project</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-5"></i>
+                            <span>3 article</span>
+                        </div>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-gray">Joined 08/05/2018</span>
+                        <div>
+                            <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+                            <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend bg-white border-r-6 p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone bg-eee p-10 border-r-half fs-13"></i>
+                        <i class="fa-solid fa-envelope bg-eee p-10 border-r-half fs-13"></i>
+                    </div>
+                    <div class="text-c">
+                        <img class="border-r-half mt-10 mb-10" src="images/friend-05.jpg" alt="friend">
+                        <h4 class="m-0">Mahmmoud Abas</h4>
+                        <p class="c-gray fs-13 mt-5">Back End Developer</p>
+                    </div>
+                    <div class="icons fs-14 mt-10 mb-15 pt-15 pb-15 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-solid fa-face-smile fa-fw mr-5"></i>
+                            <span>67 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw mr-5"></i>
+                            <span>9 project</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-5"></i>
+                            <span>2 article</span>
+                        </div>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-gray">Joined 20/01/2015</span>
+                        <div>
+                            <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+                            <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend bg-white border-r-6 p-20 p-relative">
+                    <div class="contact p-absolute">
+                        <i class="fa-solid fa-phone bg-eee p-10 border-r-half fs-13"></i>
+                        <i class="fa-solid fa-envelope bg-eee p-10 border-r-half fs-13"></i>
+                    </div>
+                    <div class="text-c">
+                        <img class="border-r-half mt-10 mb-10" src="images/friend-04.jpg" alt="friend">
+                        <h4 class="m-0">Mohammed Mady</h4>
+                        <p class="c-gray fs-13 mt-5">Front End Developer</p>
+                    </div>
+                    <div class="icons fs-14 mt-10 mb-15 pt-15 pb-15 p-relative">
+                        <div class="mb-10">
+                            <i class="fa-solid fa-face-smile fa-fw mr-5"></i>
+                            <span>75 Friend</span>
+                        </div>
+                        <div class="mb-10">
+                            <i class="fa-solid fa-code-commit fa-fw mr-5"></i>
+                            <span>2 project</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-newspaper fa-fw mr-5"></i>
+                            <span>1 article</span>
+                        </div>
+                    </div>
+                    <div class="info between-flex fs-13">
+                        <span class="c-gray">Joined 26/10/2019</span>
+                        <div>
+                            <a class="bg-blue c-white btn-shape" href="profile.html">Profile</a>
+                            <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Start Footer -->
+            <div class="footer p-10 text-c">
+                Created With Love By <span>Ahmed Eldab3</span>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/Dabo3a" i class="fa-brands fa-facebook p-10" target="_blank"
+                        title="Go To Facebook"></i></a>
+                    <a href="https://twitter.com/aaeldab3" i class="fa-brands fa-twitter p-10" target="_blank"
+                        title="Go To Twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ahmed-eldabaa-04b114219/" i class="fa-brands fa-linkedin p-10"
+                        target="_blank" title="Go To linkedin"></i></a>
+                    <a href="#" i class="fas fa-home p-10" target="_blank" title="Go To Home"></i></a>
+                </div>
+                <p class="copyright">&copy; 2023 <span title="Ahmed Mohammed Eldabaa">Eldab3</span> All Right
+                    Reserved </p>
+            </div>
+            <!-- End Footer -->
+        </div>
+        <!-- End Content -->
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+# Ignore Sass files
+*.sass
+*.scss
+
+# Ignore Sass directories
+/sass/
